@@ -12,6 +12,7 @@ module.exports = {
         grey: "#ededed",
         "f-blue": "#123C69",
         "opaque-black": "rgba(0,0,0,0.35)",
+        text: "#123C69"
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
