@@ -22,7 +22,7 @@ module.exports = {
       }),
       fontFamily: {
         playfair: ["Noto Sana Mono", "serif"],
-        opensans: ["Open Sans", "sans-serif"],
+        opensans: ["Mukta", "sans-serif"],
       },
       content: {
         brush: "url('./assets/brush.png')",
