@@ -30,7 +30,7 @@ function App() {
           setSelectedPage={setSelectedPage}
         />
       )}
-      <landing setSelectedPage = {setSelectedPage}/>
+      <Landing setSelectedPage = {setSelectedPage}/>
     </div>
   </div>
 }
