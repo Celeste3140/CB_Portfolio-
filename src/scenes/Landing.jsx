@@ -12,23 +12,23 @@ const Landing = ({ setSelectedPage }) => {
             className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
         >
             {/* image */}
-            <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
+            <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
                 {isAboveMediumScreens ? (
                     <div
                         className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-                    before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-ruby before:z-[-1]"
+                    before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-black before:z-[-1]"
                     >
                         <img
                             src="../assets/Profilepic.png"
                             alt="profile picture"
-                            className="rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[500px]"
+                            className="border-solid border-2 border-black rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
                         />
                     </div>
                 ) : (
                     <img
                         src="../assets/Profilepic.png"
                         alt="profile picture"
-                        className="rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[500px]"
+                        className="border-solid border-2 border-black rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
                     />
                 )}
             </div>
@@ -53,7 +53,7 @@ const Landing = ({ setSelectedPage }) => {
                             Baltazar
                         </span>
                     </p>
-                    <p className="mt-10 mb-7 text-sm text-center md:text-start">
+                    <p className="mt-10 mb-7 text-sm text-center font-opensans md:text-start">
                         I'm a full stack web developer based in California!
                     </p>
                 </motion.div>
@@ -69,8 +69,8 @@ const Landing = ({ setSelectedPage }) => {
                         visible: { opacity: 1, x: 0 },
                     }}>
                     <AnchorLink
-                        className="bg-f-blue text-white rounded-md py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-ruby transition duration-500"
+                        className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
+                        hover:bg-blue hover:text-ruby font-opensans transition duration-500"
                         onClick={() => setSelectedPage("contact")}
                         href="#contact"
                     >

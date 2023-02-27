@@ -22,8 +22,8 @@ module.exports = {
           "linear-gradient(90deg, #c9def4 14.53%, #f5ccd4 69.36%, #b8a4c9 117.73%)",
       }),
       fontFamily: {
-        playfair: ["Noto Sana Mono", "serif"],
-        opensans: ["Mukta", "sans-serif"],
+        playfair: ["monospace", "raleway"],
+        opensans: ["monospace", "sans-serif"],
       },
       content: {
         person1: "url('./assets/person-1.png')",
