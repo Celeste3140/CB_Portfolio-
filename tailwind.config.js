@@ -12,14 +12,18 @@ module.exports = {
         grey: "#ededed",
         "f-blue": "#123C69",
         "opaque-black": "rgba(0,0,0,0.35)",
-        text: "#123C69"
+        text: "#123C69",
+        linkin: "#6da7e6",
+        lruby: "#bc6280",
+        must: "#e7c39c"
+        
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
           "linear-gradient(81.66deg, #c9def4 7.21%, #f5ccd4 45.05%, #b8a4c9 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #c9def4 14.53%, #f5ccd4 69.36%, #b8a4c9 117.73%)",
+          "linear-gradient(90deg, #210cae 14.53%, #4dc9e6 117.73%)",
       }),
       fontFamily: {
         playfair: ["monospace", "raleway"],
