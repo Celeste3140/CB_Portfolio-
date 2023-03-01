@@ -99,7 +99,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-linkin absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="font-playfair mt-5">
-                    <ul class="list-none md:list-disc">
+                        <ul class="list-none md:list-disc">
                             <li>SQL</li>
                             <li>jQuery</li>
                             <li>NodeJS</li>
@@ -129,7 +129,7 @@ const MySkills = () => {
 
                     </div>
                     <p className="font-playfair mt-5">
-                    <ul class="list-none md:list-disc">
+                        <ul class="list-none md:list-disc">
                             <li>Heroku</li>
                             <li>Insomia</li>
                             <li>Canva</li>
