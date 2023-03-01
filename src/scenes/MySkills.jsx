@@ -35,7 +35,7 @@ const MySkills = () => {
                             <img
                                 src="../assets/skills.jpg"
                                 alt="skills"
-                                className="z-10 border-solid border-2 border-black"
+                                className="z-10 border-solid border-2 border-black max-w-[400px] md:max-w-[500px]"
                             />
                         </div>
                     ) : (
