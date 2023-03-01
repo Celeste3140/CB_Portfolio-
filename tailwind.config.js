@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         lbeige: "#EEE2D2",
         blue: "#BAB2B5",
-        "d-beige": "#EDC7B7",
+        "dbeige": "#EDC7B7",
         ruby: "#AC3B61",
         grey: "#ededed",
         "f-blue": "#123C69",
