@@ -6,6 +6,7 @@ import Landing from "./scenes/Landing";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
+
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
   const [isTopOfPage, setIsTopOfPage] = useState(true);
@@ -38,7 +39,7 @@ function App() {
       <MySkills />
     </div>
     <div className="w-5/6 mx-auto">
-      <Projects />
+          <Projects />
       </div>
   </div>
 }
