@@ -40,23 +40,6 @@ const Contact = () => {
                 </div>
             </motion.div>
             {/* form n img */}
-            <div className="md:flex md:justify-between gap-16 mt-5">
-                <motion.div
-                    className="basis-1/2 flex justify-center"
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ duration: 0.5 }}
-                    variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 },
-                    }}
-
-                >
-                    <div className="border-solid border-2 border-black">
-                    <img src="../assets/Contact.jpg" alt="contact" />
-                    </div>
-                </motion.div>
 
                 <motion.div
                     className="basis-1/2 mt-10 md:mt-0"
@@ -125,14 +108,14 @@ const Contact = () => {
                             </p>
                         )}
                         <button
-                            className="p-5 bg-linkin font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+                            className="border-solid border-2 border-black bg-linkin text-white rounded-md py-3 px-7 font-semibold
+                            hover:bg-blue hover:text-ruby font-opensans transition duration-500"
                             type="submit">
                             Send!
                         </button>
                     </form>
                 </motion.div>
 
-            </div>
         </section>
     )
 };
