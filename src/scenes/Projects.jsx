@@ -24,7 +24,6 @@ const Project = ({ title }) => {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
-                    text here
                 </p>
             </div>
             <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
