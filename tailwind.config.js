@@ -5,27 +5,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "l-beige": "#EEE2D2",
+        lbeige: "#EEE2D2",
         blue: "#BAB2B5",
-        "d-beige": "#EDC7B7",
+        "dbeige": "#EDC7B7",
         ruby: "#AC3B61",
         grey: "#ededed",
         "f-blue": "#123C69",
         "opaque-black": "rgba(0,0,0,0.35)",
+        text: "#123C69",
+        linkin: "#6da7e6",
+        lruby: "#bc6280",
+        must: "#e7c39c"
+        
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
-          "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
+          "linear-gradient(81.66deg, #c9def4 7.21%, #f5ccd4 45.05%, #b8a4c9 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+          "linear-gradient(90deg, #210cae 14.53%, #4dc9e6 117.73%)",
       }),
       fontFamily: {
-        playfair: ["Noto Sana Mono", "serif"],
-        opensans: ["Mukta", "sans-serif"],
+        playfair: ["monospace", "raleway"],
+        opensans: ["monospace", "sans-serif"],
       },
       content: {
-        brush: "url('./assets/brush.png')",
         person1: "url('./assets/person-1.png')",
         person2: "url('./assets/person-2.png')",
         person3: "url('./assets/person-3.png')",
