@@ -79,7 +79,7 @@ const Landing = ({ setSelectedPage }) => {
                     <div>
                         <a href="https://publuu.com/flip-book/94887/261117/page/1" target="_blank">
                             <button className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-ruby font-opensans transition duration-500">Resume</button>
+                        hover:bg-blue hover:text-ruby font-opensans transition duration-500">Resume PDF</button>
                         </a>
 
                     </div>

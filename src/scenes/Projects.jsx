@@ -67,12 +67,36 @@ const Projects = () => {
             viewport={{ once: true, amount: 0.2 }}
           >
             {/* ROWs */}
+            <div>
+              <a href="https://manolo-barbershop.herokuapp.com/" target="_blank">
             <Project title="Project 1" />
+            </a>
+            </div>
+            <div>
+              <a href="https://github.com/Celeste3140/AWS-Thought" target="_blank">
             <Project title="Project 2" />
+            </a>
+            </div>
+            <div>
+              <a href="https://celeste3140.github.io/Weather-Dashboard/" target="_blank">
             <Project title="Project 3" />
+            </a>
+            </div>
+            <div>
+              <a href="https://celeste3140.github.io/Password-Generator-Module3/" target="_blank">
             <Project title="Project 4" />
+            </a>
+            </div>
+            <div>
+              <a href="https://github.com/Celeste3140/Professional-README-Generator" target="_blank">
             <Project title="Project 5" />
+            </a>
+            </div>
+            <div>
+              <a href="https://github.com/Celeste3140/Javascript-quiz" target="_blank">
             <Project title="Project 6" />
+            </a>
+            </div>
           </motion.div>
         </div>
       </section>
