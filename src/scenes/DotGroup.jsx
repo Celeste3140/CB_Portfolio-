@@ -1,4 +1,4 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
+/* import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const DotGroup = ({ selectedPage, setSelectedPage }) => {
     const selectedStyles = `relative bg-ruby before:absolute before:w-6 before:h-6 before:rounded-full
@@ -39,4 +39,4 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
     )
 }
 
-export default DotGroup;
+export default DotGroup; */
