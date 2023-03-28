@@ -83,7 +83,7 @@ const Projects = () => {
             </a>
             </div>
             <div>
-              <a href="https://celeste3140.github.io/Password-Generator-Module3/" target="_blank">
+              <a href="https://celeste3140.github.io/RecipeApp/" target="_blank">
             <Project title="Project 4" />
             </a>
             </div>
