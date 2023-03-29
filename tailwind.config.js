@@ -5,17 +5,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lbeige: "#EEE2D2",
-        blue: "#BAB2B5",
-        "dbeige": "#EDC7B7",
-        ruby: "#AC3B61",
-        grey: "#ededed",
-        "f-blue": "#123C69",
+        lbeige: "#FFFFFF",
+        blue: "#E26D5C",
+        "dbeige": "#C9CBA3",
+        ruby: "#723D46",
+        grey: "#FFE1A8",
+        "f-blue": "#E26D5C",
         "opaque-black": "rgba(0,0,0,0.35)",
-        text: "#123C69",
+        text: "#472D30",
         linkin: "#6da7e6",
-        lruby: "#bc6280",
-        must: "#e7c39c"
+        lruby: "#f08080",
+        must: "#C9CBA3"
         
       },
       backgroundImage: (theme) => ({
@@ -23,7 +23,7 @@ module.exports = {
           "linear-gradient(81.66deg, #c9def4 7.21%, #f5ccd4 45.05%, #b8a4c9 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #210cae 14.53%, #4dc9e6 117.73%)",
+          "linear-gradient(90deg, #EF6351 14.53%, #FFE3E0 117.73%)",
       }),
       fontFamily: {
         playfair: ["monospace", "raleway"],

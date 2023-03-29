@@ -32,7 +32,7 @@ const Contact = () => {
             >
                 <div>
                     <p className="font-playfair font-semibold text-4xl">
-                        <span className="text-f-blue">Contact Me!</span>
+                        <span className="text-text">Contact Me!</span>
                     </p>
                     <div className="flex md:justify-end my-5">
                         <LineGradient width="w-1/2" />
@@ -59,7 +59,7 @@ const Contact = () => {
                         method="POST"
                     >
                         <input
-                            className="w-full bg-must font-semibold placeholder-opaque-black p-3"
+                            className="w-full border-solid border-2 rounded-md border-black bg-white font-semibold placeholder-opaque-black p-3"
                             type="text"
                             placeholder="NAME"
                             {...register("name", {
@@ -74,7 +74,7 @@ const Contact = () => {
                             </p>
                         )}
                         <input
-                            className="w-full bg-must font-semibold placeholder-opaque-black p-3 mt-5"
+                            className="w-full border-solid border-2 rounded-md border-black bg-white font-semibold placeholder-opaque-black p-3 mt-5"
                             type="text"
                             placeholder="EMAIL"
                             {...register("email", {
@@ -89,7 +89,7 @@ const Contact = () => {
                             </p>
                         )}
                         <textarea
-                            className="w-full bg-must font-semibold placeholder-opaque-black p-3 mt-5"
+                            className="w-full border-solid border-2 rounded-md border-black bg-white font-semibold placeholder-opaque-black p-3 mt-5"
                             name="message"
                             placeholder="MESSAGE"
                             rows="4"
@@ -108,7 +108,7 @@ const Contact = () => {
                             </p>
                         )}
                         <button
-                            className="border-solid border-2 border-black bg-linkin text-white rounded-md py-3 px-7 font-semibold
+                            className="border-solid border-2 border-black bg-blue text-white rounded-md py-3 px-7 font-semibold
                             hover:bg-blue hover:text-ruby font-opensans transition duration-500"
                             type="submit">
                             Send!
