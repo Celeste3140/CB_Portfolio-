@@ -77,7 +77,7 @@ const Landing = ({ setSelectedPage }) => {
                         Contact Me
                     </AnchorLink>
                     <div>
-                        <a href="https://docs.google.com/document/d/1oAoaKOQZ18lD8LkKsSGIdUR2YYvEfuKVN-zE5OMTJzM/edit?usp=sharing" target="_blank">
+                        <a href="https://docs.google.com/document/d/1oAoaKOQZ18lD8LkKsSGIdUR2YYvEfuKVN-zE5OMTJzM/edit?usp=sharing">
                             <button className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
                         hover:bg-blue hover:text-ruby font-opensans transition duration-500">Resume PDF</button>
                         </a>
