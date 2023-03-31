@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
-import { motion } from "framer-motion"
 
 const Resume = () => {
     
@@ -82,7 +82,7 @@ const Resume = () => {
                      and damaging affects on the surrounding community.
                     </p>
                     <div>
-                        <a href="https://docs.google.com/document/d/e/2PACX-1vQKAhRWAIwpB1l8AOhd57hZUWWsx4pwln23YO4ky8SfRAo2Wb6BbHJUFfYLS2FH70W3lWyC5mAVInhs/pub">
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vQKAhRWAIwpB1l8AOhd57hZUWWsx4pwln23YO4ky8SfRAo2Wb6BbHJUFfYLS2FH70W3lWyC5mAVInhs/pub" target="_blank">
                             <button className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
                         hover:bg-blue hover:text-ruby font-opensans transition duration-500">View paper here</button>
                         </a>

@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import Navbar from "./scenes/Navbar"
+import Navbar from "./scenes/Navbar";
 /* import DotGroup from "./scenes/DotGroup"; */
-import Landing from "./scenes/Landing";
 import LineGradient from "./components/LineGradient";
-import MySkills from "./scenes/MySkills";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
+import Landing from "./scenes/Landing";
+import MySkills from "./scenes/MySkills";
 import Resume from "./scenes/Resume";
-import Portfolio from "./scenes/Skills"
+import Portfolio from "./scenes/Skills";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
