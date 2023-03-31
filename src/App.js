@@ -7,7 +7,7 @@ import MySkills from "./scenes/MySkills";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import Resume from "./scenes/Resume";
-import Portfolio from "./scenes/Skills/Skills"
+import Portfolio from "./scenes/Skills"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');

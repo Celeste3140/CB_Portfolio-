@@ -1,12 +1,12 @@
 import "./Skills.css";
-import LineGradient from "../../components/LineGradient";
+import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import IMG1 from "../../assets/project-1.png";
-import IMG2 from "../../assets/project-2.png";
-import IMG3 from "../../assets/project-3.png";
-import IMG4 from "../../assets/Project-4.png";
-import IMG5 from "../../assets/project-5.png";
-import IMG6 from "../../assets/project-6.png";
+import IMG1 from "../assets/project-1.png";
+import IMG2 from "../assets/project-2.png";
+import IMG3 from "../assets/project-3.png";
+import IMG4 from "../assets/Project-4.png";
+import IMG5 from "../assets/project-5.png";
+import IMG6 from "../assets/project-6.png";
 import React from "react";
 
 //Portfolio function
