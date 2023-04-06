@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import React from "react";
-import IMG1 from "../assets/project-1.png";
+import IMG1 from "../assets/Project-1.png";
 import IMG2 from "../assets/project-2.png";
 import IMG3 from "../assets/project-3.png";
 import IMG4 from "../assets/Project-4.png";
-import IMG5 from "../assets/project-5.png";
-import IMG6 from "../assets/project-6.png";
+import IMG5 from "../assets/Project-5.png";
+import IMG6 from "../assets/Project-6.png";
 import LineGradient from "../components/LineGradient";
 import "./Skills.css";
 
