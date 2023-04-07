@@ -70,7 +70,7 @@ const Landing = ({ setSelectedPage }) => {
                     }}>
                     <AnchorLink
                         className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-ruby font-opensans transition duration-500"
+                        hover:bg-blue hover:text-dbeige font-opensans transition duration-500"
                         onClick={() => setSelectedPage("contact")}
                         href="#contact"
                     >
@@ -79,7 +79,7 @@ const Landing = ({ setSelectedPage }) => {
                     <div>
                         <a href="https://docs.google.com/document/d/1oAoaKOQZ18lD8LkKsSGIdUR2YYvEfuKVN-zE5OMTJzM/edit?usp=sharing" target="_blank" rel="noreferrer">
                             <button className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-ruby font-opensans transition duration-500">Resume PDF</button>
+                        hover:bg-blue hover:text-dbeige font-opensans transition duration-500">Resume PDF</button>
                         </a>
 
                     </div>

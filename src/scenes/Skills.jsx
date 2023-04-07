@@ -113,7 +113,7 @@ const Portfolio = () => {
             <a
                 href={pro.github}
                 target="_blank"
-                className="btn text-ruby font-bold"
+                className="btn text-linkin font-bold"
                 rel="noreferrer"
               >
                 GitHub Link

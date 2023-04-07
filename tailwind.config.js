@@ -12,9 +12,9 @@ module.exports = {
         grey: "#0077b6",
         "f-blue": "#03045e",/* dark blue */
         "opaque-black": "rgba(0,0,0,0.35)",
-        text: "#472D30",
-        linkin: "#6da7e6",
-        lruby: "#f08080",
+        text: "#000000",
+        linkin: "#00b4d8",/* twitter blue */
+        lruby: "#023e8a", /*blue */
         must:  "#0077b6"/* lighter blue */
         
       },
@@ -23,7 +23,7 @@ module.exports = {
           "linear-gradient(81.66deg, #c9def4 7.21%, #f5ccd4 45.05%, #b8a4c9 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #000000 14.53%, #0096c7 117.73%)",
+          "linear-gradient(90deg, #0096c7 14.53%, #000000 117.73%)",
       }),
       fontFamily: {
         playfair: ["monospace", "raleway"],
