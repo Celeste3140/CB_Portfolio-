@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
                 </motion.div>
                 {/* call to action */}
                 <motion.div
-                    className="flex mt-5 justify-center md:justify-start"
+                    className="space-x-1 flex mt-5 justify-center md:justify-start"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
