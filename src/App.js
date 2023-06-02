@@ -53,10 +53,6 @@ function App() {
       <Resume />
     </div>
     <LineGradient />
-    <div className="w-5/6 mx-auto">
-      <Contact />
-    </div>
-    <LineGradient />
     <Footer />
   </div>
 }
