@@ -20,7 +20,7 @@ const MySkills = () => {
                     }}
                 >
                     <p className="font-playfair font-semibold text-4xl mb-5">
-                        My <span className="text-ruby">Skills</span>
+                        My <span className="text-text">Skills</span>
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7"></p>
@@ -63,13 +63,13 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">01</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">Frontend Development</p>
+                            <p className="font-playfair text-text font-semibold text-5xl">01</p>
+                            <p className="font-playfair text-text font-semibold text-3xl mt-3">Frontend Development</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-lruby absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5 font-playfair">
-                        <ul classn="list-none md:list-disc">
+                    <p className="mt-5 font-playfair text-text">
+                        <ul classn="list-none md:list-disc ">
                             <li>React.js</li>
                             <li>jQuery</li>
                             <li>HTML</li>
@@ -93,12 +93,12 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">02</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">Backend Development</p>
+                            <p className="font-playfair text-text font-semibold text-5xl">02</p>
+                            <p className="font-playfair text-text font-semibold text-3xl mt-3">Backend Development</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-linkin absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="font-playfair mt-5">
+                    <p className="text-text font-playfair mt-5">
                         <ul class="list-none md:list-disc">
                             <li>SQL</li>
                             <li>jQuery</li>
@@ -122,13 +122,13 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">03</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">Other Tools</p>
+                            <p className="font-playfair text-text font-semibold text-5xl">03</p>
+                            <p className="font-playfair text-text font-semibold text-3xl mt-3">Other Tools</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-must absolute right-0 top-0 z-[-1]" />
 
                     </div>
-                    <p className="font-playfair mt-5">
+                    <p className="text-text font-playfair mt-5">
                         <ul class="list-none md:list-disc">
                             <li>Heroku</li>
                             <li>Insomia</li>

@@ -45,7 +45,7 @@ const Landing = ({ setSelectedPage }) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <p className="text-6xl font-playfair xs:font-semibold z-10 text-center md:text-start">
+                    <p className="text-6xl text-text font-playfair xs:font-semibold z-10 text-center md:text-start">
                         Celeste {""}
                         <span
                             className="xs:relative xs:text-text xs:font-semibold z-20 xs:before:content-brush
@@ -53,7 +53,7 @@ const Landing = ({ setSelectedPage }) => {
                             Baltazar
                         </span>
                     </p>
-                    <p className="mt-10 mb-7 text-sm text-center font-opensans md:text-start">
+                    <p className="mt-10 mb-7 text-text text-sm text-center font-opensans md:text-start">
                         I'm a full stack web developer based in California!
                     </p>
                 </motion.div>

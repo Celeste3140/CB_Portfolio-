@@ -6,14 +6,14 @@
     gap: 2.5rem;
 }
 p, h3, a {
-    color: black;
+    color: #E5E5E5;
     font-family: Roboto mono;
 }
 a {
     padding-bottom: 10px;
 }
 .portfolio__item {
-    background: #f8f6f1;
+    background: #14213D;
     padding: 1.3rem;
     border-radius: 1rem;
     border: 2px solid black;

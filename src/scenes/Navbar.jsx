@@ -7,8 +7,8 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     return (
         <AnchorLink
       className={`${
-        selectedPage === lowerCasePage ? "text-ruby" : ""
-      } hover:text-ruby transition duration-500`}
+        selectedPage === lowerCasePage ? "text-blue" : ""
+      } hover:text-grey transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -60,7 +60,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 )}
                 {/* mobile menu */}
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className="font-opensans fixed right-0 bottom-0 h-full bg-grey w-[300px]">
+                    <div className="font-opensans fixed right-0 bottom-0 h-full bg-dbeige w-[300px]">
                         {/* closed icon */}
                         <div className="flex justify-end p-12">
                             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>

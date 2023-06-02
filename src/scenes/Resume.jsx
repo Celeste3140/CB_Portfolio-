@@ -19,7 +19,7 @@ const Resume = () => {
                     }}
                 >
                     <p className="font-playfair font-semibold text-4xl mb-5">
-                        My <span className="text-ruby">Resume</span>
+                        My <span className="text-text">Resume</span>
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7"></p>
