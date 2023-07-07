@@ -19,7 +19,7 @@ const Portfolio = () => {
       img: IMG1,
       description:
         "Manolo's barbershop is a local business that we have been partnered with to create a MERN stack application.",
-      technologies: "Html | CSS | React Js | Node.js | Express | MongoDB",
+      technologies: "HTML | CSS | React Js | Node.js | Express | MongoDB",
       link: "",
       github: "https://github.com/SklylerF/manolo-barber-shop",
     },
@@ -29,7 +29,7 @@ const Portfolio = () => {
       img: IMG4,
       description:
         "Food recipe website using https://www.themealdb.com/api.php",
-        technologies: "Html | Scss | Javascript",
+        technologies: "HTML | CSS | Javascript",
       link: "https://celeste3140.github.io/RecipeApp/",
       github: "https://celeste3140.github.io/RecipeApp/",
     },
@@ -38,7 +38,7 @@ const Portfolio = () => {
       title: "Deep Thoughts - AWS",
       img: IMG2,
       description: "It is will be deployed to the cloud and replace the back-end API with cloud resources to handle the storage, database, and computing through AWS",
-      technologies: "Html | Scss | AWS | React",
+      technologies: "HTML | CSS | AWS | React",
       link: "",
       github: "https://github.com/Celeste3140/AWS-Thought",
     },
@@ -48,7 +48,7 @@ const Portfolio = () => {
       img: IMG3,
       description:
         "A dedicated, standalone web page built for specific campaigns and target audiences.",
-        technologies: "Html | Scss | Javascript",
+        technologies: "HTML | CSS | Javascript",
       link: "",
       github: "https://celeste3140.github.io/Weather-Dashboard/",
     },
@@ -68,7 +68,7 @@ const Portfolio = () => {
       img: IMG6,
       description:
         "Time quiz on the fundamentals of Javascript code.",
-      technologies: "H | CSS | Javascript",
+      technologies: "HTML | CSS | Javascript",
       link: "",
       github: "https://github.com/Celeste3140/Javascript-quiz",
     },
