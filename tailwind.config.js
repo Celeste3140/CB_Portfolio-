@@ -8,14 +8,9 @@ module.exports = {
         lbeige: "#f6f6f9", /* background */
         green: "#6dA274", /* green */
         "dbeige": "#c9afab",/*  navbar */
-        ruby: "#000000",
-        grey: "#FDB645", /* slightly lighter orange DELETE*/
-        "f-blue": "#FCA311",/* orange DELETE */ 
+        Lavender: "#c7c4d9",
         "opaque-black": "rgba(0,0,0,0.35)",
         text: "#0f0e16", /* text color */
-        linkin: "#00b4d8",/* twitter blue */
-        lruby: "#c7c4d9", /*blue */
-        must:  "#0077b6"/* lighter blue */
         
       },
       backgroundImage: (theme) => ({
