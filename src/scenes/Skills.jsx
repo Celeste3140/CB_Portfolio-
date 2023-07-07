@@ -1,3 +1,4 @@
+// My Projects
 import { motion } from "framer-motion";
 import React from "react";
 import IMG1 from "../assets/Project-1.png";
@@ -30,7 +31,7 @@ const Portfolio = () => {
         "Food recipe website using https://www.themealdb.com/api.php",
         technologies: "Html | Scss | Javascript",
       link: "https://celeste3140.github.io/RecipeApp/",
-      github: "https://github.com/Celeste3140/RecipeApp",
+      github: "https://celeste3140.github.io/RecipeApp/",
     },
     {
       id: 3,
@@ -48,18 +49,18 @@ const Portfolio = () => {
       description:
         "A dedicated, standalone web page built for specific campaigns and target audiences.",
         technologies: "Html | Scss | Javascript",
-      link: "https://celeste3140.github.io/Weather-Dashboard/",
-      github: "https://github.com/Celeste3140/Weather-Dashboard",
+      link: "",
+      github: "https://celeste3140.github.io/Weather-Dashboard/",
     },
     {
       id: 5,
-      title: "README Generator",
+      title: "Book Library",
       img: IMG5,
       description:
-        "README generator so one can quickly and easily generate a README file. This application is used through a command-line application.",
-      technologies: "Javascript",
+        "Application that serves as a library for user to archive book reading activity.",
+      technologies: "Javascript | CSS | HTML",
       link: "",
-      github: "https://github.com/Celeste3140/Professional-README-Generator",
+      github: "https://book-library-liart.vercel.app/",
     },
     {
       id: 6,
@@ -67,7 +68,7 @@ const Portfolio = () => {
       img: IMG6,
       description:
         "Time quiz on the fundamentals of Javascript code.",
-      technologies: "Html | Scss | Javascript",
+      technologies: "H | CSS | Javascript",
       link: "",
       github: "https://github.com/Celeste3140/Javascript-quiz",
     },
@@ -89,7 +90,7 @@ const Portfolio = () => {
           }}
         >
           <div>
-            <p className="font-playfair font-semibold text-4xl">
+            <p className="font-playfair font-semibold text-4xl text-text ">
               <span>My</span> Projects
             </p>
             <div className="flex justify-center mt-5">
@@ -113,10 +114,10 @@ const Portfolio = () => {
             <a
                 href={pro.github}
                 target="_blank"
-                className="btn text-linkin font-bold"
+                className="btn text-green font-bold"
                 rel="noreferrer"
               >
-                GitHub Link
+                Live Demo
               </a>
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>

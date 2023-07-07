@@ -70,8 +70,8 @@ const Landing = ({ setSelectedPage }) => {
                     }}>
                     <div>
                         <a href="https://docs.google.com/document/d/e/2PACX-1vTcZioQZ9DbQemenNO7goMin1rBlzD8VXmO_ZaKE8Guxa17SSvg4PYgzSKSi6c6ci6JCO74bjava9Ta/pub" target="_blank" rel="noreferrer">
-                            <button className="border-solid border-2 border-black bg-f-blue text-white rounded-md py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-dbeige font-opensans transition duration-500">Resume</button>
+                            <button className="border-solid border-2 border-black bg-green text-white rounded-md py-3 px-7 font-semibold
+                        hover:bg-green hover:text-dbeige font-opensans transition duration-500">Resume</button>
                         </a>
 
                     </div>

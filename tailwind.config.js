@@ -5,16 +5,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lbeige: "#000000", /* black */
-        blue: "#FCA311", /* orange */
-        "dbeige": "#14213D",/*  blue */
+        lbeige: "#f6f6f9", /* background */
+        green: "#6dA274", /* green */
+        "dbeige": "#c9afab",/*  navbar */
         ruby: "#000000",
-        grey: "#FDB645", /* slightly lighter orange */
-        "f-blue": "#FCA311",/* orange */
+        grey: "#FDB645", /* slightly lighter orange DELETE*/
+        "f-blue": "#FCA311",/* orange DELETE */ 
         "opaque-black": "rgba(0,0,0,0.35)",
-        text: "#E5E5E5", /* text color */
+        text: "#0f0e16", /* text color */
         linkin: "#00b4d8",/* twitter blue */
-        lruby: "#023e8a", /*blue */
+        lruby: "#c7c4d9", /*blue */
         must:  "#0077b6"/* lighter blue */
         
       },
